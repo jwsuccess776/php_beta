@@ -1,0 +1,113 @@
+[31-Dec-2018 20:11:02 Africa/Johannesburg] PHP Fatal error:  Uncaught Exception: Mailer Error: You must provide at least one recipient email address. in /home/sellsaco/public_html/public/includes/utilities.php:363
+Stack trace:
+#0 /home/sellsaco/public_html/public/includes/utilities.php(268): Utilities::sendSmtpEmail(NULL, 'Order Item Stat...', '<table cellspac...', '', Array)
+#1 /home/sellsaco/public_html/application/models/emailnotifications.php(443): Utilities::sendMailTpl(NULL, 'child_order_sta...', Array)
+#2 /home/sellsaco/public_html/application/models/orders.php(1144): Emailnotifications->Order_Status_Update_Buyer(3067)
+#3 /home/sellsaco/public_html/admin-application/controllers/vendororderscontroller.php(231): Orders->addChildOrderHistory(136, '8', 'test', true)
+#4 /home/sellsaco/public_html/public/includes/framework-functions.php(70): VendorOrdersController->cancel_order(136)
+#5 /home/sellsaco/public_html/public/manager/index.php(18): callHook()
+#6 {main}
+  thrown in /home/sellsaco/public_html/public/includes/utilities.php on line 363
+[31-Dec-2018 20:11:09 Africa/Johannesburg] PHP Fatal error:  Uncaught Exception: Mailer Error: You must provide at least one recipient email address. in /home/sellsaco/public_html/public/includes/utilities.php:363
+Stack trace:
+#0 /home/sellsaco/public_html/public/includes/utilities.php(268): Utilities::sendSmtpEmail(NULL, 'Order Item Stat...', '<table cellspac...', '', Array)
+#1 /home/sellsaco/public_html/application/models/emailnotifications.php(443): Utilities::sendMailTpl(NULL, 'child_order_sta...', Array)
+#2 /home/sellsaco/public_html/application/models/orders.php(1144): Emailnotifications->Order_Status_Update_Buyer(3068)
+#3 /home/sellsaco/public_html/admin-application/controllers/vendororderscontroller.php(231): Orders->addChildOrderHistory(138, '8', 'test', true)
+#4 /home/sellsaco/public_html/public/includes/framework-functions.php(70): VendorOrdersController->cancel_order(138)
+#5 /home/sellsaco/public_html/public/manager/index.php(18): callHook()
+#6 {main}
+  thrown in /home/sellsaco/public_html/public/includes/utilities.php on line 363
+[31-Dec-2018 20:11:19 Africa/Johannesburg] PHP Fatal error:  Uncaught Exception: Mailer Error: You must provide at least one recipient email address. in /home/sellsaco/public_html/public/includes/utilities.php:363
+Stack trace:
+#0 /home/sellsaco/public_html/public/includes/utilities.php(268): Utilities::sendSmtpEmail(NULL, 'Order Item Stat...', '<table cellspac...', '', Array)
+#1 /home/sellsaco/public_html/application/models/emailnotifications.php(443): Utilities::sendMailTpl(NULL, 'child_order_sta...', Array)
+#2 /home/sellsaco/public_html/application/models/orders.php(1144): Emailnotifications->Order_Status_Update_Buyer(3069)
+#3 /home/sellsaco/public_html/admin-application/controllers/vendororderscontroller.php(231): Orders->addChildOrderHistory(140, '8', 'test', true)
+#4 /home/sellsaco/public_html/public/includes/framework-functions.php(70): VendorOrdersController->cancel_order(140)
+#5 /home/sellsaco/public_html/public/manager/index.php(18): callHook()
+#6 {main}
+  thrown in /home/sellsaco/public_html/public/includes/utilities.php on line 363
+[31-Dec-2018 20:11:26 Africa/Johannesburg] PHP Fatal error:  Uncaught Exception: Mailer Error: You must provide at least one recipient email address. in /home/sellsaco/public_html/public/includes/utilities.php:363
+Stack trace:
+#0 /home/sellsaco/public_html/public/includes/utilities.php(268): Utilities::sendSmtpEmail(NULL, 'Order Item Stat...', '<table cellspac...', '', Array)
+#1 /home/sellsaco/public_html/application/models/emailnotifications.php(443): Utilities::sendMailTpl(NULL, 'child_order_sta...', Array)
+#2 /home/sellsaco/public_html/application/models/orders.php(1144): Emailnotifications->Order_Status_Update_Buyer(3070)
+#3 /home/sellsaco/public_html/admin-application/controllers/vendororderscontroller.php(231): Orders->addChildOrderHistory(142, '8', 'test', true)
+#4 /home/sellsaco/public_html/public/includes/framework-functions.php(70): VendorOrdersController->cancel_order(142)
+#5 /home/sellsaco/public_html/public/manager/index.php(18): callHook()
+#6 {main}
+  thrown in /home/sellsaco/public_html/public/includes/utilities.php on line 363
+[31-Dec-2018 20:11:57 Africa/Johannesburg] PHP Fatal error:  Uncaught Exception: Mailer Error: You must provide at least one recipient email address. in /home/sellsaco/public_html/public/includes/utilities.php:363
+Stack trace:
+#0 /home/sellsaco/public_html/public/includes/utilities.php(268): Utilities::sendSmtpEmail(NULL, 'Order Item Stat...', '<table cellspac...', '', Array)
+#1 /home/sellsaco/public_html/application/models/emailnotifications.php(443): Utilities::sendMailTpl(NULL, 'child_order_sta...', Array)
+#2 /home/sellsaco/public_html/application/models/orders.php(1144): Emailnotifications->Order_Status_Update_Buyer(3071)
+#3 /home/sellsaco/public_html/admin-application/controllers/vendororderscontroller.php(231): Orders->addChildOrderHistory(143, '8', 'test', true)
+#4 /home/sellsaco/public_html/public/includes/framework-functions.php(70): VendorOrdersController->cancel_order(143)
+#5 /home/sellsaco/public_html/public/manager/index.php(18): callHook()
+#6 {main}
+  thrown in /home/sellsaco/public_html/public/includes/utilities.php on line 363
+[31-Dec-2018 20:26:31 Africa/Johannesburg] PHP Fatal error:  Uncaught Exception: Mailer Error: You must provide at least one recipient email address. in /home/sellsaco/public_html/public/includes/utilities.php:363
+Stack trace:
+#0 /home/sellsaco/public_html/public/includes/utilities.php(268): Utilities::sendSmtpEmail(NULL, 'Order Item Stat...', '<table cellspac...', '', Array)
+#1 /home/sellsaco/public_html/application/models/emailnotifications.php(443): Utilities::sendMailTpl(NULL, 'child_order_sta...', Array)
+#2 /home/sellsaco/public_html/application/models/orders.php(1144): Emailnotifications->Order_Status_Update_Buyer(3167)
+#3 /home/sellsaco/public_html/admin-application/controllers/vendororderscontroller.php(231): Orders->addChildOrderHistory(134, '8', 'test', true)
+#4 /home/sellsaco/public_html/public/includes/framework-functions.php(70): VendorOrdersController->cancel_order(134)
+#5 /home/sellsaco/public_html/public/manager/index.php(18): callHook()
+#6 {main}
+  thrown in /home/sellsaco/public_html/public/includes/utilities.php on line 363
+[06-Jan-2019 08:27:17 Africa/Johannesburg] PHP Fatal error:  Uncaught Exception: PLEASE CHMOD /home/sellsaco/public_html/user-uploads/caching/sellsacoza/ - 0777 OR ANY WRITABLE PERMISSION! in /home/sellsaco/public_html/public/includes/phpfastcache/3.0.0/drivers/files.php:57
+Stack trace:
+#0 /home/sellsaco/public_html/public/includes/phpfastcache/3.0.0/drivers/files.php(107): phpfastcache_files->getFilePath('dashboard_info')
+#1 /home/sellsaco/public_html/public/includes/phpfastcache/3.0.0/abstract.php(56): phpfastcache_files->driver_get('dashboard_info', Array)
+#2 /home/sellsaco/public_html/admin-application/controllers/homecontroller.php(35): BasePhpFastCache->get('dashboard_info')
+#3 /home/sellsaco/public_html/public/includes/framework-functions.php(70): HomeController->default_action()
+#4 /home/sellsaco/public_html/public/manager/index.php(18): callHook()
+#5 {main}
+  thrown in /home/sellsaco/public_html/public/includes/phpfastcache/3.0.0/drivers/files.php on line 57
+[06-Jan-2019 08:27:22 Africa/Johannesburg] PHP Fatal error:  Uncaught Exception: PLEASE CHMOD /home/sellsaco/public_html/user-uploads/caching/sellsacoza/ - 0777 OR ANY WRITABLE PERMISSION! in /home/sellsaco/public_html/public/includes/phpfastcache/3.0.0/drivers/files.php:57
+Stack trace:
+#0 /home/sellsaco/public_html/public/includes/phpfastcache/3.0.0/drivers/files.php(107): phpfastcache_files->getFilePath('dashboard_info')
+#1 /home/sellsaco/public_html/public/includes/phpfastcache/3.0.0/abstract.php(56): phpfastcache_files->driver_get('dashboard_info', Array)
+#2 /home/sellsaco/public_html/admin-application/controllers/homecontroller.php(35): BasePhpFastCache->get('dashboard_info')
+#3 /home/sellsaco/public_html/public/includes/framework-functions.php(70): HomeController->default_action()
+#4 /home/sellsaco/public_html/public/manager/index.php(18)[28-Jun-2019 21:44:21 Africa/Johannesburg] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/sellsaco/public_html/application/models/emailnotifications.php on line 478
+[13-Sep-2019 16:14:19 Africa/Johannesburg] PHP Fatal error:  Uncaught Exception: Mailer Error: SMTP connect() failed. in /home/sellsaco/public_html/public/includes/utilities.php:363
+Stack trace:
+#0 /home/sellsaco/public_html/public/includes/utilities.php(268): Utilities::sendSmtpEmail('info@sornigroup...', 'Your account ha...', '<table align="c...', '', Array)
+#1 /home/sellsaco/public_html/application/models/emailnotifications.php(505): Utilities::sendMailTpl('info@sornigroup...', 'account_credite...', Array)
+#2 /home/sellsaco/public_html/application/models/orders.php(1096): Emailnotifications->sendTxnNotification(6559)
+#3 /home/sellsaco/public_html/admin-application/controllers/vendororderscontroller.php(163): Orders->addChildOrderHistory(4307, '6', '', '1', '')
+#4 /home/sellsaco/public_html/public/includes/framework-functions.php(70): VendorOrdersController->view(4307)
+#5 /home/sellsaco/public_html/public/manager/index.php(18): callHook()
+#6 {main}
+  thrown in /home/sellsaco/public_html/public/includes/utilities.php on line 363
+[13-Sep-2019 16:14:28 Africa/Johannesburg] PHP Fatal error:  Uncaught Exception: Mailer Error: SMTP connect() failed. in /home/sellsaco/public_html/public/includes/utilities.php:363
+Stack trace:
+#0 /home/sellsaco/public_html/public/includes/utilities.php(268): Utilities::sendSmtpEmail('info@sornigroup...', 'Your account ha...', '<table align="c...', '', Array)
+#1 /home/sellsaco/public_html/application/models/emailnotifications.php(505): Utilities::sendMailTpl('info@sornigroup...', 'account_credite...', Array)
+#2 /home/sellsaco/public_html/application/models/orders.php(1096): Emailnotifications->sendTxnNotification(6560)
+#3 /home/sellsaco/public_html/admin-application/controllers/vendororderscontroller.php(163): Orders->addChildOrderHistory(4303, '6', '', '1', '')
+#4 /home/sellsaco/public_html/public/includes/framework-functions.php(70): VendorOrdersController->view(4303)
+#5 /home/sellsaco/public_html/public/manager/index.php(18): callHook()
+#6 {main}
+  thrown in /home/sellsaco/public_html/public/includes/utilities.php on line 363
+[13-Sep-2019 16:19:34 Africa/Johannesburg] PHP Fatal error:  Uncaught Exception: Mailer Error: SMTP connect() failed. in /home/sellsaco/public_html/public/includes/utilities.php:363
+Stack trace:
+#0 /home/sellsaco/public_html/public/includes/utilities.php(268): Utilities::sendSmtpEmail('bufordn1@gmail....', 'Order Item Stat...', '<table style="f...', '', Array)
+#1 /home/sellsaco/public_html/application/models/emailnotifications.php(444): Utilities::sendMailTpl('bufordn1@gmail....', 'child_order_sta...', Array)
+#2 /home/sellsaco/public_html/application/models/orders.php(1184): Emailnotifications->Order_Status_Update_Buyer(14258)
+#3 /home/sellsaco/public_html/admin-application/controllers/vendororderscontroller.php(163): Orders->addChildOrderHistory(4307, '6', '', '1', '')
+#4 /home/sellsaco/public_html/public/includes/framework-functions.php(70): VendorOrdersController->view(4307)
+#5 /home/sellsaco/public_html/public/manager/index.php(18): callHook()
+#6 {main}
+  thrown in /home/sellsaco/public_html/public/includes/utilities.php on line 363
+[14-Sep-2019 17:30:23 Africa/Johannesburg] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 615481344 bytes) in /home/sellsaco/public_html/application/models/settings.php on line 322
+[14-Sep-2019 17:30:23 Africa/Johannesburg] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 615481344 bytes) in /home/sellsaco/public_html/application/models/settings.php on line 322
+[01-Nov-2019 08:11:21 UTC] PHP Fatal error:  <br>The encoded file <b>/home/sellsaco/public_html/beta/library/includes/functions.php</b> requires a license file.<br>The license file <b>/home/sellsaco/public_html/beta/license.txt</b> is not valid for this server. in Unknown on line 0
+[01-Nov-2019 08:11:23 UTC] PHP Fatal error:  <br>The encoded file <b>/home/sellsaco/public_html/beta/library/includes/functions.php</b> requires a license file.<br>The license file <b>/home/sellsaco/public_html/beta/license.txt</b> is not valid for this server. in Unknown on line 0
+[01-Nov-2019 08:11:30 UTC] PHP Fatal error:  <br>The encoded file <b>/home/sellsaco/public_html/beta/library/includes/functions.php</b> requires a license file.<br>The license file <b>/home/sellsaco/public_html/beta/license.txt</b> is not valid for this server. in Unknown on line 0
+[06-Nov-2019 06:06:21 UTC] PHP Fatal error:  <br>The encoded file <b>/home/sellsaco/public_html/beta/library/includes/functions.php</b> requires a license file.<br>The license file <b>/home/sellsaco/public_html/beta/license.txt</b> is not valid for this server. in Unknown on line 0
+[06-Nov-2019 06:07:19 UTC] PHP Fatal error:  <br>The encoded file <b>/home/sellsaco/public_html/beta/library/includes/functions.php</b> requires a license file.<br>The license file <b>/home/sellsaco/public_html/beta/license.txt</b> is not valid for this server. in Unknown on line 0

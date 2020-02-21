@@ -1,0 +1,22 @@
+{"m_payment_id":"75","pf_payment_id":"414100","payment_status":"COMPLETE","item_name":"171007-0000838","item_description":"","amount_gross":"3000.00","amount_fee":"-68.40","amount_net":"2931.60","custom_str1":"","custom_str2":"","custom_str3":"","custom_str4":"","custom_str5":"","custom_int1":"","custom_int2":"","custom_int3":"","custom_int4":"","custom_int5":"","name_first":"Test","name_last":"User 01","email_address":"sbtu01@payfast.co.za","merchant_id":"10005769","signature":"c4581ac47eea58283192fd8ada88e943"}\n\n\n Order : 75\n\n\n Qur 1 : UPDATE tbl_orders SET order_payment_status='2', order_status ='1'  WHERE order_id='75' \n\n\n query 2 : insert into tbl_order_payments (
+	op_order_id, 
+	op_payment_method, 
+	op_gateway_txn_id, 
+	op_amount, 
+	op_gateway_status, 
+	op_comments, 
+	op_gateway_response, 
+	op_date 
+	) 
+	
+	values (
+	'75', 
+	'payfast', 
+	'414100', 
+	'3000.00', 
+	'COMPLETE', 
+	'COMPLETE', 
+	'COMPLETE', 
+	'2017-10-07 15:35'  
+	
+	) 

@@ -1,0 +1,5 @@
+[11-Sep-2019 14:59:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Themes' not found in /home/sellsaco/public_html/public/css/theme-color.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/sellsaco/public_html/public/css/theme-color.php on line 5
+[09-Jan-2020 19:05:44 UTC] PHP Fatal error:  require_once(): Failed opening required 'includes/functions.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/home/sellsaco/public_html/beta/library:/home/sellsaco/public_html/beta/public/includes') in /home/sellsaco/public_html/beta/public/application-top.php on line 28
